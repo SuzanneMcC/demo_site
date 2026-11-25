@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>School of Computing | Dublin City University (DCU) — International Study</title>
-  <meta name="description" content="Official International Student Portal for the School of Computing at Dublin City University (DCU). Explore BSc & MSc Computing degrees, paid INTRA placements, Research Ireland centres, scholarships, and Stamp 1G work visas." />
+  <title>School of Computing | Dublin City University (DCU)</title>
+  <meta name="description" content="Official portal for the School of Computing at Dublin City University (DCU). Explore accredited BSc & MSc Computing degrees, paid INTRA placements, Rinn-AI research, and CAO, EU & international admissions." />
 
   <!-- Google Fonts: Plus Jakarta Sans (Headings), Inter (Body), JetBrains Mono (Codes, ECTS & Fees) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -58,13 +58,15 @@
       <div class="flex items-center gap-3">
         <span class="inline-flex items-center gap-1.5 font-mono text-[11px] text-dcu-sky font-semibold">
           <span class="w-2 h-2 rounded-full bg-dcu-coral animate-pulse"></span>
-          2027 INTERNATIONAL INTAKE OPEN
+          2027 CAO, EU &amp; INTERNATIONAL INTAKE OPEN
         </span>
         <span class="hidden md:inline text-slate-600">|</span>
         <span class="hidden md:inline text-slate-300">Dublin City University • McNulty Building, Glasnevin Campus, Dublin 9</span>
       </div>
       <div class="flex items-center gap-4">
-        <a href="#/international" class="hover:text-dcu-sky transition-colors font-medium">Stamp 1G Work Visa</a>
+        <a href="#/programmes" class="hover:text-dcu-sky transition-colors font-medium">CAO &amp; EU Entry</a>
+        <span class="text-slate-600">•</span>
+        <a href="#/international" class="hover:text-dcu-sky transition-colors font-medium">International Hub</a>
         <span class="text-slate-600">•</span>
         <button type="button" onclick="openAdvisorModal()" class="text-dcu-coral hover:underline font-semibold cursor-pointer">
           computingsecretary@dcu.ie
@@ -77,7 +79,7 @@
   <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-dcu-skyBorder shadow-sm">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between py-3 gap-4">
-        <!-- Uploaded Geometric Logo Mark + Institutional Lockup (Clickable to Home) -->
+        <!-- Geometric Logo Mark + Institutional Lockup (Clickable to Home) -->
         <a href="#/home" class="focus:outline-none group shrink-0" aria-label="DCU School of Computing Home">
           <div id="header-logo-container"></div>
         </a>
@@ -102,7 +104,7 @@
             <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.4" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
             </svg>
-            <span>Book Advisor Call</span>
+            <span>Course &amp; Admissions Inquiry</span>
           </button>
 
           <!-- Mobile / Tablet Menu Button -->
@@ -138,7 +140,7 @@
           onclick="closeMobileMenu(); openAdvisorModal();"
           class="w-full flex items-center justify-center gap-2 bg-dcu-coral text-dcu-navy font-display font-extrabold py-3.5 px-5 rounded-xl shadow-md cursor-pointer"
         >
-          <span>Book Advisor Call &amp; Download Brochure</span>
+          <span>Request Brochure &amp; Admissions Advice</span>
         </button>
       </div>
     </div>
@@ -171,7 +173,7 @@
             </div>
           </div>
           <p class="text-xs sm:text-sm text-slate-300 leading-relaxed max-w-md">
-            Established in 1980 as Ireland's first School of Computing, educating global software engineers, AI researchers, data scientists, and cybersecurity leaders in Europe's Silicon Docks.
+            Established in 1980 as Ireland's first School of Computing, educating software engineers, AI researchers, data scientists, and cybersecurity leaders in Dublin.
           </p>
           <div class="text-xs text-slate-300 space-y-1.5 bg-dcu-deep/70 p-4 rounded-2xl border border-white/10">
             <p><strong class="text-white">Campus Address:</strong> McNulty Building, Glasnevin Campus, Collins Avenue, Dublin 9, D09 V209, Ireland</p>
@@ -206,14 +208,14 @@
           </ul>
         </div>
 
-        <!-- International Support -->
+        <!-- Admissions -->
         <div class="lg:col-span-2">
           <h3 class="font-display font-bold text-white text-xs uppercase tracking-wider mb-4">Admissions</h3>
           <ul class="space-y-2.5 text-xs text-slate-300">
+            <li><a href="#/programmes" class="hover:text-dcu-sky transition-colors">CAO &amp; EU Entry</a></li>
             <li><a href="#/international" class="hover:text-dcu-sky transition-colors">Country Entry Checker</a></li>
             <li><a href="#/international" class="hover:text-dcu-sky transition-colors">Tuition &amp; Merit Estimator</a></li>
-            <li><a href="#/international" class="hover:text-dcu-sky transition-colors">Stamp 1G Work Visa</a></li>
-            <li><button type="button" onclick="openAdvisorModal()" class="text-dcu-coral hover:underline text-left font-bold cursor-pointer">Book Advisor Call</button></li>
+            <li><button type="button" onclick="openAdvisorModal()" class="text-dcu-coral hover:underline text-left font-bold cursor-pointer">Admissions Inquiry</button></li>
           </ul>
         </div>
       </div>
@@ -260,7 +262,7 @@
       </div>
 
       <div class="bg-dcu-skySoft border-t border-dcu-skyBorder px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-3">
-        <span class="text-xs text-dcu-navy/80 font-medium">Request tailored grade evaluation or 2027 international brochure</span>
+        <span class="text-xs text-dcu-navy/80 font-medium">Request CAO/EU or international entry advice &amp; 2027 course brochure</span>
         <div class="flex items-center gap-3 w-full sm:w-auto">
           <button
             type="button"
@@ -281,7 +283,7 @@
     </div>
   </div>
 
-  <!-- INTERACTIVE ADVISOR & BROCHURE MODAL -->
+  <!-- INTERACTIVE COURSE INQUIRY & BROCHURE MODAL -->
   <div
     id="advisor-modal"
     class="fixed inset-0 z-50 hidden items-center justify-center p-4 sm:p-6 bg-dcu-deep/80 backdrop-blur-sm overflow-y-auto"
@@ -292,15 +294,15 @@
     <div class="bg-white rounded-2xl max-w-xl w-full shadow-2xl border border-dcu-skyBorder overflow-hidden my-auto">
       <div class="bg-dcu-navy text-white p-6 flex items-start justify-between gap-4 border-b border-dcu-sky/20">
         <div>
-          <span class="font-mono text-xs text-dcu-sky uppercase font-bold">DCU School of Computing • International Desk</span>
+          <span class="font-mono text-xs text-dcu-sky uppercase font-bold">DCU School of Computing • Admissions &amp; Course Desk</span>
           <h3 id="advisor-modal-title" class="font-display font-extrabold text-xl sm:text-2xl mt-1">
-            Book Advisor Call &amp; Get 2027 Brochure
+            Request Course Advice &amp; 2027 Brochure
           </h3>
         </div>
         <button
           type="button"
           onclick="closeAdvisorModal()"
-          aria-label="Close advisor modal"
+          aria-label="Close inquiry modal"
           class="p-2 rounded-xl bg-white/10 hover:bg-white/20 text-white transition-colors shrink-0 cursor-pointer"
         >
           <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
@@ -317,7 +319,7 @@
               type="text"
               id="advisor-name"
               required
-              placeholder="e.g., Ananya Sharma"
+              placeholder="e.g., Cian Murphy / Ananya Sharma"
               class="w-full px-3.5 py-2.5 rounded-xl border border-dcu-skyBorder bg-dcu-ice text-sm focus:outline-none focus:ring-2 focus:ring-dcu-sky focus:border-dcu-navy"
             />
           </div>
@@ -327,7 +329,7 @@
               type="email"
               id="advisor-email"
               required
-              placeholder="ananya@example.com"
+              placeholder="student@example.com"
               class="w-full px-3.5 py-2.5 rounded-xl border border-dcu-skyBorder bg-dcu-ice text-sm focus:outline-none focus:ring-2 focus:ring-dcu-sky focus:border-dcu-navy"
             />
           </div>
@@ -335,17 +337,17 @@
 
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
-            <label for="advisor-country" class="block text-xs font-bold text-dcu-navy mb-1.5">Country / Region *</label>
+            <label for="advisor-country" class="block text-xs font-bold text-dcu-navy mb-1.5">Applicant Region / Pathway *</label>
             <select
               id="advisor-country"
               class="w-full px-3.5 py-2.5 rounded-xl border border-dcu-skyBorder bg-dcu-ice text-sm focus:outline-none focus:ring-2 focus:ring-dcu-sky focus:border-dcu-navy"
             >
+              <option value="Ireland & EU / EEA (CAO / Direct)">Ireland &amp; EU / EEA (CAO / Direct)</option>
               <option value="India">India</option>
               <option value="China">China</option>
               <option value="USA & Canada">USA &amp; Canada</option>
               <option value="Nigeria & West Africa">Nigeria &amp; West Africa</option>
               <option value="ASEAN (Malaysia, Vietnam, Indonesia)">ASEAN (Malaysia, Vietnam, Indonesia)</option>
-              <option value="EU / EEA">EU / EEA</option>
             </select>
           </div>
           <div>
@@ -366,20 +368,20 @@
             id="advisor-programme"
             class="w-full px-3.5 py-2.5 rounded-xl border border-dcu-skyBorder bg-dcu-ice text-sm focus:outline-none focus:ring-2 focus:ring-dcu-sky focus:border-dcu-navy"
           >
+            <option value="DC121 — BSc in Computer Science">DC121 — BSc in Computer Science (4 Yrs + Paid INTRA)</option>
+            <option value="DC123 — BSc in Data Science">DC123 — BSc in Data Science (4 Yrs + Paid INTRA)</option>
+            <option value="DC120 — BSc in Computing for Business">DC120 — BSc in Computing for Business (4 Yrs + Paid INTRA)</option>
             <option value="MSc-AI — MSc in Computing (Artificial Intelligence)">MSc-AI — MSc in Computing (Artificial Intelligence)</option>
             <option value="MSc-DA — MSc in Computing (Data Analytics)">MSc-DA — MSc in Computing (Data Analytics)</option>
             <option value="MSc-SSE — MSc in Computing (Secure Software Engineering)">MSc-SSE — MSc in Computing (Secure Software Engineering)</option>
             <option value="MSc-FT — MSc in Computing (FinTech & Financial Innovation)">MSc-FT — MSc in Computing (FinTech &amp; Financial Innovation)</option>
-            <option value="DC121 — BSc in Computer Science">DC121 — BSc in Computer Science (4 Yrs + Paid INTRA)</option>
-            <option value="DC123 — BSc in Data Science">DC123 — BSc in Data Science (4 Yrs + Paid INTRA)</option>
-            <option value="DC120 — BSc in Computing for Business">DC120 — BSc in Computing for Business (4 Yrs + Paid INTRA)</option>
           </select>
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs pt-1">
           <label class="flex items-center gap-2 p-3 rounded-xl border border-dcu-skyBorder bg-dcu-skySoft cursor-pointer">
             <input type="checkbox" checked class="accent-dcu-navy rounded" />
-            <span class="font-medium text-dcu-navy">1-on-1 Zoom Advisor Call</span>
+            <span class="font-medium text-dcu-navy">1-on-1 Course Advisor Call</span>
           </label>
           <label class="flex items-center gap-2 p-3 rounded-xl border border-dcu-skyBorder bg-dcu-skySoft cursor-pointer">
             <input type="checkbox" checked class="accent-dcu-navy rounded" />
@@ -399,7 +401,7 @@
             type="submit"
             class="px-6 py-2.5 rounded-xl bg-dcu-coral hover:bg-dcu-coralHover text-dcu-navy font-display font-extrabold text-sm shadow-coral-glow transition-all cursor-pointer"
           >
-            Confirm Advisor Request
+            Confirm Inquiry
           </button>
         </div>
       </form>
@@ -414,13 +416,13 @@
           <span class="font-mono text-xs uppercase tracking-wider text-dcu-coral font-bold">Request Confirmed</span>
           <h4 class="font-display font-extrabold text-2xl text-dcu-navy mt-1">Your DCU Computing Pack is Ready!</h4>
           <p id="confirm-summary-text" class="text-sm text-slate-600 mt-2 max-w-md mx-auto leading-relaxed">
-            Our Regional Admissions Advisor will email your tailored 2027 Computing Brochure and Zoom advising link within 24 business hours.
+            Our Admissions Team will email your tailored 2027 Computing Brochure and consultation details within 24 business hours.
           </p>
         </div>
 
         <div class="bg-dcu-skySoft rounded-xl p-4 border border-dcu-skyBorder flex items-center justify-between gap-3 max-w-md mx-auto">
           <div class="text-left">
-            <span class="text-[11px] font-mono uppercase text-slate-500 block">Advising Reference ID</span>
+            <span class="text-[11px] font-mono uppercase text-slate-500 block">Inquiry Reference ID</span>
             <span id="confirm-ref-code" class="font-mono font-bold text-sm text-dcu-navy">DCU-COMP-2027-8419</span>
           </div>
           <button
@@ -449,28 +451,14 @@
   <!-- APPLICATION SCRIPT: GEOMETRIC LOGO MARK, DATA, 6-PAGE ROUTER & INTERACTIVE TOOLS -->
   <script>
     // =========================================================================
-    // 1. UPLOADED GEOMETRIC SCHOOL OF COMPUTING LOGO MARK & LOCKUP
+    // 1. GEOMETRIC SCHOOL OF COMPUTING LOGO MARK & LOCKUP (HEADER ONLY)
     // =========================================================================
-    /**
-     * Renders the user's exact geometric School of Computing logo mark paired with
-     * the DCU institutional lockup text.
-     * Geometry:
-     *  - Rounded-square badge (rx="14") filled with Bright Sky Blue (#80CEFF)
-     *  - Top horizontal stadium pill (y=0..33): Deep Midnight Navy (#07283D) with flush
-     *    Warm Coral (#FC9272) circle on the right end
-     *  - Open Sky Blue (#80CEFF) horizontal middle channel (y=33..65)
-     *  - Bottom horizontal stadium pill (y=65..98): 180-deg rotational symmetry with
-     *    flush Warm Coral (#FC9272) circle on the left end & Deep Midnight Navy (#07283D) body
-     *
-     * @param {'light' | 'dark'} variant - 'light' for white/ice surfaces, 'dark' for #07283D surfaces
-     * @param {'header' | 'masthead' | 'hero' | 'footer'} context - Sizing context
-     */
     function renderSchoolLogo(variant = 'light', context = 'header') {
       const isDark = variant === 'dark';
       const primaryText = isDark ? 'text-white' : 'text-dcu-navy';
       const kickerText = isDark ? 'text-dcu-sky' : 'text-dcu-navy/75';
       const subText = isDark ? 'text-slate-300' : 'text-slate-600';
-      const dividerColor = isDark ? 'bg-dcu-coral' : 'bg-dcu-coral';
+      const dividerColor = 'bg-dcu-coral';
       const badgeBorder = isDark ? 'ring-1 ring-white/25' : 'ring-1 ring-dcu-navy/15';
 
       const emblemSize =
@@ -493,7 +481,7 @@
 
       return `
         <div class="inline-flex items-center gap-3 sm:gap-3.5 select-none">
-          <!-- Exact Geometric Logo Mark from Uploaded Image -->
+          <!-- Exact Geometric Logo Mark -->
           <svg
             class="${emblemSize} shrink-0 rounded-[12px] shadow-sm ${badgeBorder}"
             viewBox="0 0 126 98"
@@ -543,11 +531,10 @@
     }
 
     /**
-     * Dedicated Page Title & Breadcrumb Banner rendered at the top of EVERY page view
-     * (#/home, #/programmes, #/international, #/intra, #/research, #/campus).
+     * Dedicated Page Title & Breadcrumb Banner rendered at the top of EVERY page view.
      * Note: The geometric School of Computing logo is kept exclusively in the sticky top header.
      */
-    function renderPageMasthead(pageTitle, subtitle, tagText) {
+    function renderPageMasthead(pageTitle, subtitle, tagText, pillText = '2027 CAO, EU & International Intake') {
       return `
         <section class="bg-white border-b border-dcu-skyBorder" aria-label="Page Header and Breadcrumb">
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 sm:py-6">
@@ -563,7 +550,7 @@
 
               <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-dcu-skyTint border border-dcu-skyBorder text-dcu-navy font-mono text-[11px] font-bold">
                 <span class="w-2 h-2 rounded-full bg-dcu-coral"></span>
-                2027 International Applications Open
+                ${pillText}
               </span>
             </div>
 
@@ -626,7 +613,7 @@
             ]
           }
         ],
-        entryRequirement: 'High school completion equivalent to Irish Leaving Certificate with strong Mathematics (CBSE/ISC 75–80%+, US GPA 3.0+ with Pre-Calculus/Calculus, A-Levels BBB, or IB 29+ points).'
+        entryRequirement: 'Irish Leaving Certificate (CAO DC121, indicative ~443 pts, O1/H4 Mathematics) or equivalent international secondary qualification (CBSE/ISC 75–80%+, US GPA 3.0+ with Calculus, A-Levels BBB, or IB 29+ points).'
       },
       {
         id: 'dc123',
@@ -666,7 +653,7 @@
             ]
           }
         ],
-        entryRequirement: 'Secondary school qualification equivalent to Irish Leaving Certificate with strong Mathematics (H4/O1 equivalent).'
+        entryRequirement: 'Irish Leaving Certificate (CAO DC123, indicative ~489 pts, H4 Mathematics) or equivalent international secondary qualification with strong Mathematics.'
       },
       {
         id: 'dc120',
@@ -706,7 +693,7 @@
             ]
           }
         ],
-        entryRequirement: 'Secondary school diploma equivalent to Irish Leaving Certificate with strong Mathematics.'
+        entryRequirement: 'Irish Leaving Certificate (CAO DC120, indicative ~354 pts, O1/H4 Mathematics) or equivalent international secondary diploma with strong Mathematics.'
       },
       {
         id: 'msc-ai',
@@ -1041,13 +1028,14 @@
     // 5. PAGE TEMPLATES (ALL 6 COMPLETE PAGES)
     // =========================================================================
 
-    // --- PAGE 1: HOME (#/home) ---
+    // --- PAGE 1: HOME (#/home) — BALANCED FOR ALL STUDENTS (NATIONAL & INTERNATIONAL) ---
     function renderHomePage() {
       return `
         ${renderPageMasthead(
           'Welcome to the School of Computing',
-          'Ireland’s First School of Computing • Global BSc, MSc & PhD Pathways in Dublin',
-          'EST. 1980 • GLASNEVIN CAMPUS, DUBLIN 9'
+          'Ireland’s First School of Computing • Accredited BSc, MSc & PhD Pathways in Dublin',
+          'EST. 1980 • GLASNEVIN CAMPUS, DUBLIN 9',
+          '2027 CAO, EU & International Intake'
         )}
 
         <!-- Deep Midnight Navy (#07283D) Hero Section -->
@@ -1073,18 +1061,17 @@
             <div class="grid lg:grid-cols-12 gap-10 items-center">
               <!-- Left Column: Institutional Kicker, Headline & CTAs -->
               <div class="lg:col-span-7 space-y-6">
-                <!-- Clean Text Institutional Kicker Pill (No Duplicate Logo) -->
                 <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-dcu-sky/30 text-xs font-mono font-bold text-dcu-sky">
                   <span class="w-2 h-2 rounded-full bg-dcu-coral"></span>
                   <span>FACULTY OF ENGINEERING &amp; COMPUTING • DUBLIN, IRELAND</span>
                 </div>
 
                 <h2 class="font-display font-extrabold text-3xl sm:text-5xl lg:text-[52px] tracking-tight leading-[1.1] text-white">
-                  Launch Your Global Tech Career from <span class="text-dcu-sky">Dublin's Silicon Docks.</span>
+                  Build Your Tech Career at <span class="text-dcu-sky">Ireland’s First School of Computing.</span>
                 </h2>
 
                 <p class="text-base sm:text-lg text-slate-200 leading-relaxed max-w-2xl">
-                  Study at Ireland's first School of Computing in the Eurozone's only English-speaking tech capital. Gain real European engineering experience through <strong class="text-white">paid INTRA placements</strong>, <strong class="text-dcu-sky">Rinn Artificial Intelligence (Rinn-AI)</strong> research labs, and Ireland's <strong class="text-dcu-coral">2-Year Stamp 1G Stay-Back Visa</strong>.
+                  Founded in 1980 on DCU’s Glasnevin Campus, we unite hands-on software engineering, data science, and AI education with <strong class="text-white">paid INTRA industry placements</strong>, <strong class="text-dcu-sky">Rinn Artificial Intelligence (Rinn-AI)</strong> research labs, and direct hiring links across Dublin’s technology sector.
                 </p>
 
                 <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
@@ -1098,52 +1085,52 @@
                     </svg>
                   </a>
                   <a
-                    href="#/international"
+                    href="#/intra"
                     class="inline-flex items-center justify-center gap-2.5 bg-dcu-sky/15 hover:bg-dcu-sky/25 text-white border border-dcu-sky/40 backdrop-blur-md font-display font-bold text-base px-7 py-4 rounded-xl transition-all"
                   >
-                    <span>International Entry &amp; Fees</span>
+                    <span>Paid INTRA &amp; Career Outcomes</span>
                   </a>
                 </div>
               </div>
 
-              <!-- Right Column: Visual Showcase Card (Stamp 1G, Paid INTRA & Live Ecosystem Stats) -->
+              <!-- Right Column: School of Computing Snapshot Card (Relevant to All Students) -->
               <div class="lg:col-span-5">
                 <div class="bg-dcu-deep/90 backdrop-blur-xl border border-dcu-sky/30 rounded-3xl p-6 sm:p-7 shadow-2xl space-y-5">
                   <div class="flex items-center justify-between border-b border-white/10 pb-4">
                     <div>
-                      <span class="font-mono text-[11px] uppercase tracking-wider text-dcu-coral font-bold">International Career Advantage</span>
-                      <h3 class="font-display font-extrabold text-lg text-white mt-0.5">Dublin Tech &amp; Visa Snapshot</h3>
+                      <span class="font-mono text-[11px] uppercase tracking-wider text-dcu-coral font-bold">Academic &amp; Industry Edge</span>
+                      <h3 class="font-display font-extrabold text-lg text-white mt-0.5">School of Computing Snapshot</h3>
                     </div>
                     <span class="px-3 py-1 rounded-full bg-dcu-sky text-dcu-navy font-mono text-xs font-extrabold">DUBLIN, IE</span>
                   </div>
 
                   <div class="space-y-3.5">
                     <div class="p-4 rounded-2xl bg-white/5 border border-dcu-sky/20 flex items-start gap-3.5">
-                      <span class="px-2.5 py-1 rounded-lg bg-dcu-coral text-dcu-navy font-mono text-xs font-extrabold shrink-0">24 MOS</span>
+                      <span class="px-2.5 py-1 rounded-lg bg-dcu-sky text-dcu-navy font-mono text-xs font-extrabold shrink-0">INTRA</span>
                       <div>
-                        <h4 class="font-display font-bold text-sm text-white">Ireland Stamp 1G Stay-Back Visa</h4>
-                        <p class="text-xs text-slate-300 mt-0.5">Full-time post-study work authorization in Ireland for Level 9 MSc Computing graduates (12 months for BSc).</p>
+                        <h4 class="font-display font-bold text-sm text-white">Paid Industry Placements &amp; Practicums</h4>
+                        <p class="text-xs text-slate-300 mt-0.5">6–8 month salaried Year 3 internship built into all BSc degrees; 30-ECTS applied industry practicum on all MSc degrees.</p>
                       </div>
                     </div>
 
                     <div class="p-4 rounded-2xl bg-white/5 border border-dcu-sky/20 flex items-start gap-3.5">
-                      <span class="px-2.5 py-1 rounded-lg bg-dcu-sky text-dcu-navy font-mono text-xs font-extrabold shrink-0">INTRA</span>
+                      <span class="px-2.5 py-1 rounded-lg bg-dcu-coral text-dcu-navy font-mono text-xs font-extrabold shrink-0">RINN-AI</span>
                       <div>
-                        <h4 class="font-display font-bold text-sm text-white">Paid Industry Placements &amp; Practicums</h4>
-                        <p class="text-xs text-slate-300 mt-0.5">6–8 month salaried Year 3 INTRA internship on all BSc degrees; 30-ECTS applied industry practicum on all MSc degrees.</p>
+                        <h4 class="font-display font-bold text-sm text-white">National Data Science &amp; AI Leadership</h4>
+                        <p class="text-xs text-slate-300 mt-0.5">Directed from DCU—Research Ireland’s €120M+ national research centre uniting 288 principal investigators across 15 institutions.</p>
                       </div>
                     </div>
 
                     <div class="grid grid-cols-2 gap-3 pt-1">
                       <div class="p-3.5 rounded-2xl bg-dcu-navySoft border border-white/10">
-                        <span class="font-mono text-[11px] text-dcu-sky block">EMEA Tech HQs</span>
-                        <span class="font-display font-extrabold text-lg text-white">Top 10 Global</span>
+                        <span class="font-mono text-[11px] text-dcu-sky block">Dublin Tech Hub</span>
+                        <span class="font-display font-extrabold text-lg text-white">300+ Partners</span>
                         <span class="text-[11px] text-slate-300 block">Google, Meta, Stripe, AWS</span>
                       </div>
                       <div class="p-3.5 rounded-2xl bg-dcu-navySoft border border-white/10">
-                        <span class="font-mono text-[11px] text-dcu-coral block">MSc Starting Pay</span>
-                        <span class="font-display font-extrabold text-lg text-white">€48k–€65k+</span>
-                        <span class="text-[11px] text-slate-300 block">Dublin Tech Graduate Avg.</span>
+                        <span class="font-mono text-[11px] text-dcu-coral block">Graduate Success</span>
+                        <span class="font-display font-extrabold text-lg text-white">96% Employed</span>
+                        <span class="text-[11px] text-slate-300 block">Within 6 months of graduation</span>
                       </div>
                     </div>
                   </div>
@@ -1153,14 +1140,14 @@
           </div>
         </section>
 
-        <!-- 4-Card Metrics Bar -->
+        <!-- 4-Card Metrics Bar (Inclusive of All Students) -->
         <section class="relative -mt-10 z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
             <div class="bg-white rounded-2xl border border-dcu-skyBorder p-6 shadow-card">
               <span class="inline-block px-2.5 py-0.5 rounded bg-dcu-skyTint text-dcu-navy font-mono text-[11px] font-bold">HERITAGE</span>
               <div class="font-mono font-extrabold text-3xl text-dcu-navy mt-2">1980</div>
               <div class="font-display font-bold text-sm text-dcu-navy mt-1">Ireland's First School of Computing</div>
-              <p class="text-xs text-slate-600 mt-1">45+ years of computing leadership &amp; industry partnerships.</p>
+              <p class="text-xs text-slate-600 mt-1">45+ years of computing education &amp; industry partnerships.</p>
             </div>
 
             <div class="bg-white rounded-2xl border border-dcu-skyBorder p-6 shadow-card">
@@ -1171,26 +1158,26 @@
             </div>
 
             <div class="bg-white rounded-2xl border border-dcu-skyBorder p-6 shadow-card">
-              <span class="inline-block px-2.5 py-0.5 rounded bg-dcu-skyTint text-dcu-navy font-mono text-[11px] font-bold">POST-STUDY VISA</span>
-              <div class="font-mono font-extrabold text-3xl text-dcu-navy mt-2">2 Years</div>
-              <div class="font-display font-bold text-sm text-dcu-navy mt-1">Ireland Stay-Back Visa for MSc</div>
-              <p class="text-xs text-slate-600 mt-1">Stamp 1G full-time graduate work rights in Ireland.</p>
+              <span class="inline-block px-2.5 py-0.5 rounded bg-dcu-skyTint text-dcu-navy font-mono text-[11px] font-bold">PAID INTERNSHIP</span>
+              <div class="font-mono font-extrabold text-3xl text-dcu-navy mt-2">6–8 Mos</div>
+              <div class="font-display font-bold text-sm text-dcu-navy mt-1">Salaried Year 3 INTRA Placement</div>
+              <p class="text-xs text-slate-600 mt-1">Accredited industry work built into every BSc degree.</p>
             </div>
 
             <div class="bg-white rounded-2xl border border-dcu-skyBorder p-6 shadow-card">
-              <span class="inline-block px-2.5 py-0.5 rounded bg-dcu-coralSoft text-dcu-navy font-mono text-[11px] font-bold">SCHOLARSHIPS</span>
-              <div class="font-mono font-extrabold text-3xl text-dcu-navy mt-2">Up to €4,000</div>
-              <div class="font-display font-bold text-sm text-dcu-navy mt-1">Automatic International Merit</div>
-              <p class="text-xs text-slate-600 mt-1">Tuition fee reductions assessed automatically with your offer.</p>
+              <span class="inline-block px-2.5 py-0.5 rounded bg-dcu-coralSoft text-dcu-navy font-mono text-[11px] font-bold">NATIONAL RESEARCH</span>
+              <div class="font-mono font-extrabold text-3xl text-dcu-navy mt-2">€120M+</div>
+              <div class="font-display font-bold text-sm text-dcu-navy mt-1">Rinn-AI Research Centre</div>
+              <p class="text-xs text-slate-600 mt-1">National Data Science &amp; AI hub directed from DCU.</p>
             </div>
           </div>
         </section>
 
-        <!-- "Why International Students Choose DCU Computing" 3-Pillar Cards -->
+        <!-- "Why Students Choose DCU School of Computing" 3-Pillar Cards -->
         <section class="py-16 lg:py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="max-w-3xl mb-12">
             <span class="font-mono text-xs font-bold uppercase tracking-widest text-dcu-coral">Three Core Pillars</span>
-            <h2 class="font-display font-extrabold text-2xl sm:text-4xl text-dcu-navy mt-1">Why International Students Choose DCU Computing</h2>
+            <h2 class="font-display font-extrabold text-2xl sm:text-4xl text-dcu-navy mt-1">Why Students Choose DCU School of Computing</h2>
           </div>
 
           <div class="grid grid-cols-1 md:grid-cols-3 gap-7">
@@ -1208,12 +1195,12 @@
 
             <div class="bg-white rounded-2xl border border-dcu-skyBorder p-7 shadow-card hover:shadow-card-hover transition-all">
               <div class="w-12 h-12 rounded-2xl bg-dcu-coral text-dcu-navy font-mono font-extrabold text-xs flex items-center justify-center mb-5">DUBLIN</div>
-              <h3 class="font-display font-extrabold text-xl text-dcu-navy">Dublin's European Tech HQ Hub</h3>
+              <h3 class="font-display font-extrabold text-xl text-dcu-navy">Direct Links to Dublin's Tech Ecosystem</h3>
               <p class="text-sm text-slate-600 mt-2.5 leading-relaxed">
-                Located 20 minutes from Dublin's Silicon Docks and IFSC—home to the European headquarters of Google, Meta, Stripe, Microsoft, Workday, and HubSpot—giving you direct access to global recruiters.
+                Located 20 minutes from Dublin's Silicon Docks and IFSC—home to the European headquarters of Google, Meta, Stripe, Microsoft, Workday, and HubSpot—giving graduates direct access to leading tech employers.
               </p>
               <a href="#/campus" class="inline-flex items-center gap-1.5 mt-5 text-xs font-display font-bold text-dcu-navy hover:text-dcu-coral transition-colors">
-                <span>Discover Dublin &amp; Campus</span>
+                <span>Discover Campus &amp; Redbrick</span>
                 <span>→</span>
               </a>
             </div>
@@ -1222,7 +1209,7 @@
               <div class="w-12 h-12 rounded-2xl bg-dcu-navy text-dcu-sky font-mono font-extrabold text-xs flex items-center justify-center mb-5">RINN-AI</div>
               <h3 class="font-display font-extrabold text-xl text-dcu-navy">Research-Led Teaching in McNulty Building</h3>
               <p class="text-sm text-slate-600 mt-2.5 leading-relaxed">
-                Learn inside the dedicated McNulty Building from faculty leading <strong>Rinn Artificial Intelligence (Rinn-AI)</strong> — Ireland’s €120M+ national research centre for Data Science &amp; AI directed from DCU.
+                Learn inside the dedicated McNulty Building with 24/7 Linux &amp; GPU labs from faculty leading <strong>Rinn Artificial Intelligence (Rinn-AI)</strong> — Ireland’s €120M+ national research centre for Data Science &amp; AI.
               </p>
               <a href="#/research" class="inline-flex items-center gap-1.5 mt-5 text-xs font-display font-bold text-dcu-navy hover:text-dcu-coral transition-colors">
                 <span>Explore Rinn-AI Research</span>
@@ -1232,7 +1219,7 @@
           </div>
         </section>
 
-        <!-- Featured Degrees Preview (2 BSc + 2 MSc Cards) -->
+        <!-- Featured Degrees Preview (2 BSc + 2 MSc Cards with Dual EU / Non-EU Tuition) -->
         <section class="py-16 bg-dcu-skySoft border-y border-dcu-skyBorder">
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
@@ -1257,14 +1244,46 @@
                     <h3 class="font-display font-extrabold text-lg text-dcu-navy">${p.title}</h3>
                     <p class="text-xs text-slate-600 mt-2.5 leading-relaxed line-clamp-3">${p.summary}</p>
                   </div>
-                  <div class="mt-5 pt-4 border-t border-dcu-skySoft flex items-center justify-between">
-                    <span class="font-mono text-xs font-bold text-dcu-navy">${p.tuitionNonEU}</span>
-                    <button type="button" onclick="openCourseModal('${p.id}')" class="text-xs font-display font-extrabold text-dcu-navy bg-dcu-coral/30 hover:bg-dcu-coral px-3 py-1.5 rounded-lg transition-colors cursor-pointer">
+                  <div class="mt-5 pt-4 border-t border-dcu-skySoft flex items-center justify-between gap-2">
+                    <div class="text-[11px] font-mono">
+                      <span class="font-bold text-dcu-navy block">${p.level === 'bsc' ? '€3,000 EU' : '€7,600 EU'}</span>
+                      <span class="text-slate-500">${p.tuitionNonEU} Non-EU</span>
+                    </div>
+                    <button type="button" onclick="openCourseModal('${p.id}')" class="text-xs font-display font-extrabold text-dcu-navy bg-dcu-coral/30 hover:bg-dcu-coral px-3 py-1.5 rounded-lg transition-colors cursor-pointer shrink-0">
                       Modules →
                     </button>
                   </div>
                 </article>
               `).join('')}
+            </div>
+
+            <!-- Balanced Admissions Pathways Strip (National / EU & International) -->
+            <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div class="bg-white rounded-2xl border border-dcu-skyBorder p-6 sm:p-7 shadow-card flex flex-col sm:flex-row sm:items-center justify-between gap-5">
+                <div class="space-y-1.5">
+                  <span class="inline-block px-2.5 py-0.5 rounded bg-dcu-skyTint text-dcu-navy font-mono text-[11px] font-bold">IRELAND &amp; EU / EEA APPLICANTS</span>
+                  <h3 class="font-display font-extrabold text-lg text-dcu-navy">CAO Undergraduate &amp; Direct EU Entry</h3>
+                  <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                    Apply for <strong>DC121</strong>, <strong>DC123</strong>, or <strong>DC120</strong> through the CAO, or apply directly to DCU for our 1-year NFQ Level 9 MSc programmes.
+                  </p>
+                </div>
+                <a href="#/programmes" class="shrink-0 inline-flex items-center justify-center px-4 py-2.5 rounded-xl bg-dcu-navy text-white font-display font-bold text-xs hover:bg-dcu-deep transition-colors">
+                  CAO &amp; EU Entry →
+                </a>
+              </div>
+
+              <div class="bg-white rounded-2xl border border-dcu-skyBorder p-6 sm:p-7 shadow-card flex flex-col sm:flex-row sm:items-center justify-between gap-5">
+                <div class="space-y-1.5">
+                  <span class="inline-block px-2.5 py-0.5 rounded bg-dcu-coralSoft text-dcu-navy font-mono text-[11px] font-bold">INTERNATIONAL (NON-EU) APPLICANTS</span>
+                  <h3 class="font-display font-extrabold text-lg text-dcu-navy">Global Entry Equivalencies, Scholarships &amp; Visas</h3>
+                  <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                    Check country grade equivalencies, automatic merit scholarships up to €4,000, and Ireland’s post-study Stamp 1G work visa.
+                  </p>
+                </div>
+                <a href="#/international" class="shrink-0 inline-flex items-center justify-center px-4 py-2.5 rounded-xl bg-dcu-coral hover:bg-dcu-coralHover text-dcu-navy font-display font-extrabold text-xs transition-colors">
+                  International Hub →
+                </a>
+              </div>
             </div>
           </div>
         </section>
@@ -1272,7 +1291,7 @@
         <!-- Latest School of Computing News -->
         <section class="py-16 lg:py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="mb-10">
-            <span class="font-mono text-xs font-bold uppercase tracking-widest text-dcu-coral">News &amp; Global Impact</span>
+            <span class="font-mono text-xs font-bold uppercase tracking-widest text-dcu-coral">News &amp; Research Impact</span>
             <h2 class="font-display font-extrabold text-2xl sm:text-4xl text-dcu-navy mt-1">Latest School of Computing News</h2>
           </div>
 
@@ -1280,18 +1299,18 @@
             <article class="bg-white rounded-2xl border border-dcu-skyBorder p-6 shadow-card flex flex-col justify-between">
               <div>
                 <div class="flex items-center justify-between text-xs font-mono mb-3">
-                  <span class="px-2.5 py-1 rounded-lg bg-dcu-sky text-dcu-navy font-extrabold">GLOBAL AI COLLABORATION</span>
+                  <span class="px-2.5 py-1 rounded-lg bg-dcu-sky text-dcu-navy font-extrabold">AI COLLABORATION</span>
                   <span class="text-slate-400">2026</span>
                 </div>
                 <h3 class="font-display font-extrabold text-lg text-dcu-navy">
                   2026 DCU–Notre Dame Transatlantic AI &amp; Trustworthy Computing Collaboration
                 </h3>
                 <p class="text-sm text-slate-600 mt-2.5 leading-relaxed">
-                  DCU School of Computing and the University of Notre Dame launch joint transatlantic research fellowships in human-centered AI safety, multimodal language models, and ethical computing.
+                  DCU School of Computing and the University of Notre Dame launch joint research fellowships in human-centered AI safety, multimodal language models, and ethical computing.
                 </p>
               </div>
               <div class="mt-5 pt-3 border-t border-dcu-skySoft font-mono text-xs text-dcu-navy font-semibold">
-                Transatlantic Research Partnership • Dublin &amp; Indiana
+                Research Partnership • Dublin &amp; Indiana
               </div>
             </article>
 
@@ -1323,11 +1342,11 @@
                   2025/2026 School of Computing Annual Student &amp; Industry Awards
                 </h3>
                 <p class="text-sm text-slate-600 mt-2.5 leading-relaxed">
-                  International and Irish BSc and MSc students celebrated in the McNulty Building for top INTRA software engineering internships, best MSc AI practicums, and Redbrick society leadership.
+                  BSc and MSc students celebrated in the McNulty Building for top INTRA software engineering internships, best MSc AI practicums, and Redbrick computing society leadership.
                 </p>
               </div>
               <div class="mt-5 pt-3 border-t border-dcu-skySoft font-mono text-xs text-dcu-navy font-semibold">
-                Sponsored by Dublin Silicon Docks Employers
+                Sponsored by Dublin Tech Employers
               </div>
             </article>
           </div>
@@ -1413,8 +1432,8 @@
 
                 <div class="mt-6 pt-4 border-t border-dcu-skySoft flex flex-wrap items-center justify-between gap-3">
                   <div>
-                    <span class="text-[11px] text-slate-500 block">Non-EU International Fee</span>
-                    <span class="font-mono font-extrabold text-sm text-dcu-navy">${prog.tuitionNonEU}</span>
+                    <span class="text-[11px] text-slate-500 block">EU / Non-EU Annual Tuition</span>
+                    <span class="font-mono font-extrabold text-xs sm:text-sm text-dcu-navy">${prog.tuitionEU} • ${prog.tuitionNonEU}</span>
                   </div>
                   <button
                     type="button"
@@ -1448,8 +1467,8 @@
                     <th class="py-4 px-5 font-bold">Code &amp; Degree</th>
                     <th class="py-4 px-4 font-bold">Duration &amp; NFQ</th>
                     <th class="py-4 px-4 font-bold">Paid INTRA / Practicum</th>
+                    <th class="py-4 px-4 font-bold">EU Tuition</th>
                     <th class="py-4 px-4 font-bold">Non-EU Tuition</th>
-                    <th class="py-4 px-4 font-bold">Stay-Back Visa</th>
                     <th class="py-4 px-5 font-bold">Graduate Career Outcomes</th>
                   </tr>
                 </thead>
@@ -1467,10 +1486,8 @@
                         <span>${p.nfq}</span>
                       </td>
                       <td class="py-4 px-4 text-xs font-bold text-dcu-navy">${p.placement}</td>
+                      <td class="py-4 px-4 font-mono text-xs font-bold text-slate-700">${p.tuitionEU}</td>
                       <td class="py-4 px-4 font-mono text-xs font-extrabold text-dcu-navy whitespace-nowrap">${p.tuitionNonEU}</td>
-                      <td class="py-4 px-4 font-mono text-xs font-bold text-dcu-navy whitespace-nowrap">
-                        ${p.level === 'msc' ? '24-Mo Stamp 1G' : '12-Mo Stamp 1G'}
-                      </td>
                       <td class="py-4 px-5 text-xs text-slate-600">${p.careers}</td>
                     </tr>
                   `).join('')}
@@ -1486,7 +1503,6 @@
     function renderInternationalPage() {
       const country = COUNTRY_DATA[state.selectedCountry];
 
-      // Interactive Tuition & Merit Scholarship Estimator
       const baseTuition = state.estLevel === 'msc' ? 18500 : 16400;
       let scholarship = 0;
       if (state.estGpa === 'high') scholarship = 4000;
@@ -1498,7 +1514,8 @@
         ${renderPageMasthead(
           'International Hub: Entry Checker, Fees & Visas',
           'Country Grade Equivalencies, MOI English Waivers, Merit Scholarships & Ireland’s Stamp 1G Work Visa',
-          'GLOBAL ADMISSIONS & VISA GUIDE'
+          'GLOBAL ADMISSIONS & VISA GUIDE',
+          '2027 International Applications Open'
         )}
 
         <section class="py-12 lg:py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
@@ -1629,7 +1646,6 @@
                   </div>
                 </div>
 
-                <!-- Dublin Student Living Budget & 20-hr/week Part-Time Work Info -->
                 <div class="grid sm:grid-cols-2 gap-4 pt-2">
                   <div class="p-4 rounded-2xl bg-dcu-skySoft border border-dcu-skyBorder">
                     <span class="font-mono text-[11px] font-bold text-dcu-navy uppercase">Dublin Living &amp; Visa Budget</span>
@@ -1750,7 +1766,7 @@
               </p>
               <ul class="mt-5 space-y-2.5 text-xs sm:text-sm text-slate-200">
                 <li class="flex items-start gap-2.5"><span class="text-dcu-sky font-extrabold">✓</span><span><strong>Industry-Aligned Portfolios:</strong> Demonstrate deployed AI/Cloud prototypes directly to Dublin tech hiring managers.</span></li>
-                <li class="flex items-start gap-2.5"><span class="text-dcu-sky font-extrabold">✓</span><span><strong>24-Month Stamp 1G Work Visa:</strong> Immediate eligibility for full-time employment across Ireland upon graduation.</span></li>
+                <li class="flex items-start gap-2.5"><span class="text-dcu-sky font-extrabold">✓</span><span><strong>24-Month Stamp 1G Work Visa:</strong> Immediate eligibility for non-EU graduates to work full-time in Ireland upon graduation.</span></li>
                 <li class="flex items-start gap-2.5"><span class="text-dcu-sky font-extrabold">✓</span><span><strong>Strong Starting Compensation:</strong> Dublin MSc Computing graduates earn €48,000–€65,000+ in starting roles.</span></li>
               </ul>
             </div>
@@ -1779,19 +1795,19 @@
             </div>
           </div>
 
-          <!-- 3 International Student & Alumni Career Spotlights (Bengaluru, Lagos, Shanghai) -->
+          <!-- 3 Alumni Career Spotlights -->
           <div>
             <div class="max-w-2xl mb-8">
-              <span class="font-mono text-xs uppercase tracking-widest text-dcu-coral font-bold">Global Alumni Voices</span>
-              <h2 class="font-display font-extrabold text-2xl sm:text-3xl text-dcu-navy mt-1">International Alumni Career Spotlights in Dublin</h2>
+              <span class="font-mono text-xs uppercase tracking-widest text-dcu-coral font-bold">Alumni Voices</span>
+              <h2 class="font-display font-extrabold text-2xl sm:text-3xl text-dcu-navy mt-1">DCU Computing Graduate Spotlights in Dublin</h2>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div class="bg-white rounded-2xl border border-dcu-skyBorder p-6 shadow-card">
                 <div class="flex items-center gap-3.5 mb-4">
-                  <div class="w-11 h-11 rounded-full bg-dcu-navy text-dcu-sky font-display font-extrabold flex items-center justify-center shrink-0">SP</div>
+                  <div class="w-11 h-11 rounded-full bg-dcu-navy text-dcu-sky font-display font-extrabold flex items-center justify-center shrink-0">SR</div>
                   <div>
-                    <h3 class="font-display font-extrabold text-base text-dcu-navy">Siddharth Rao • Bengaluru, India</h3>
+                    <h3 class="font-display font-extrabold text-base text-dcu-navy">Siddharth Rao • Bengaluru</h3>
                     <p class="text-xs font-mono text-dcu-coral font-bold">MSc-AI → Machine Learning Engineer, Stripe Dublin</p>
                   </div>
                 </div>
@@ -1804,7 +1820,7 @@
                 <div class="flex items-center gap-3.5 mb-4">
                   <div class="w-11 h-11 rounded-full bg-dcu-coral text-dcu-navy font-display font-extrabold flex items-center justify-center shrink-0">CO</div>
                   <div>
-                    <h3 class="font-display font-extrabold text-base text-dcu-navy">Chidinma Okafor • Lagos, Nigeria</h3>
+                    <h3 class="font-display font-extrabold text-base text-dcu-navy">Chidinma Okafor • Lagos</h3>
                     <p class="text-xs font-mono text-dcu-coral font-bold">MSc-SSE → Cloud Security Engineer, Mastercard</p>
                   </div>
                 </div>
@@ -1817,7 +1833,7 @@
                 <div class="flex items-center gap-3.5 mb-4">
                   <div class="w-11 h-11 rounded-full bg-dcu-sky text-dcu-navy font-display font-extrabold flex items-center justify-center shrink-0">LC</div>
                   <div>
-                    <h3 class="font-display font-extrabold text-base text-dcu-navy">Lin Chen • Shanghai, China</h3>
+                    <h3 class="font-display font-extrabold text-base text-dcu-navy">Lin Chen • Shanghai</h3>
                     <p class="text-xs font-mono text-dcu-coral font-bold">DC123 BSc Data Science → Data Scientist, Workday</p>
                   </div>
                 </div>
@@ -1993,7 +2009,7 @@
               </div>
             </div>
 
-            <!-- 15 Partner Research Organisations Accordion / Pill Matrix -->
+            <!-- 15 Partner Research Organisations Pill Matrix -->
             <div class="bg-white/5 border border-white/10 rounded-2xl p-5 sm:p-6">
               <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
                 <span class="font-mono text-xs uppercase text-dcu-sky font-bold">15 Partner Research Organisations Across Ireland</span>
@@ -2112,12 +2128,12 @@
             </div>
           </div>
 
-          <!-- 4. Funded PhD Pathways for International Researchers -->
+          <!-- 4. Funded PhD Pathways -->
           <div class="bg-dcu-navy text-white rounded-3xl p-8 sm:p-10 shadow-2xl border border-dcu-sky/25">
             <div class="grid lg:grid-cols-12 gap-8 items-center">
               <div class="lg:col-span-8 space-y-4">
                 <span class="font-mono text-xs uppercase tracking-widest text-dcu-coral font-bold">NFQ Level 10 Doctoral Research • 258 PhD Cohort</span>
-                <h2 class="font-display font-extrabold text-2xl sm:text-3xl">Funded Rinn-AI PhD Pathways for International Researchers</h2>
+                <h2 class="font-display font-extrabold text-2xl sm:text-3xl">Funded Rinn-AI PhD Studentships</h2>
                 <p class="text-sm sm:text-base text-slate-300 leading-relaxed">
                   High-achieving MSc and Honours BSc graduates can apply for fully funded 4-year PhD studentships within <strong>Rinn Artificial Intelligence (Rinn-AI)</strong> at DCU, with international mobility across Ireland’s first ELLIS unit.
                 </p>
@@ -2128,7 +2144,7 @@
                   </div>
                   <div class="bg-white/5 border border-dcu-sky/25 rounded-xl p-4">
                     <div class="font-mono font-extrabold text-dcu-sky text-lg">100% Covered</div>
-                    <div class="text-xs text-slate-300 mt-1">Full Non-EU / EU Fee Waiver</div>
+                    <div class="text-xs text-slate-300 mt-1">Full EU / Non-EU Fee Waiver</div>
                   </div>
                   <div class="bg-white/5 border border-dcu-sky/25 rounded-xl p-4">
                     <div class="font-mono font-extrabold text-white text-lg">288 PIs • ELLIS</div>
@@ -2156,7 +2172,7 @@
       return `
         ${renderPageMasthead(
           'Campus Facilities & Dublin Life',
-          'Inside the McNulty Building, Redbrick Computing Society, International Office & Dublin Connectivity',
+          'Inside the McNulty Building, Redbrick Computing Society, Student Support & Dublin Connectivity',
           'GLASNEVIN CAMPUS • 15 MINS FROM DUBLIN AIRPORT'
         )}
 
@@ -2182,7 +2198,7 @@
                 </div>
               </div>
 
-              <!-- Dublin Airport & City-Centre Transit Times -->
+              <!-- Dublin Connectivity -->
               <div class="lg:col-span-5 bg-dcu-navy text-white rounded-2xl p-6 space-y-4 border border-dcu-sky/25">
                 <span class="font-mono text-xs text-dcu-sky uppercase font-bold">Dublin Connectivity</span>
                 <h3 class="font-display font-extrabold text-xl">Fast Transit Across Dublin</h3>
@@ -2216,9 +2232,9 @@
 
             <div class="bg-white rounded-2xl border border-dcu-skyBorder p-6 shadow-card">
               <span class="px-2.5 py-0.5 rounded bg-dcu-coral text-dcu-navy font-mono text-xs font-extrabold">SUPPORT</span>
-              <h3 class="font-display font-extrabold text-lg text-dcu-navy mt-3">DCU International Office</h3>
+              <h3 class="font-display font-extrabold text-lg text-dcu-navy mt-3">DCU Student &amp; Global Support</h3>
               <p class="text-xs sm:text-sm text-slate-600 mt-2 leading-relaxed">
-                Dedicated visa support, Dublin Airport welcome greeting, IRP immigration workshops, and 120+ student societies celebrating global cultures.
+                Dedicated academic mentoring, DCU International Office visa &amp; IRP workshops, and 120+ student clubs and societies on campus.
               </p>
             </div>
 
@@ -2232,9 +2248,9 @@
 
             <div class="bg-white rounded-2xl border border-dcu-skyBorder p-6 shadow-card">
               <span class="px-2.5 py-0.5 rounded bg-dcu-sky text-dcu-navy font-mono text-xs font-extrabold">HOUSING</span>
-              <h3 class="font-display font-extrabold text-lg text-dcu-navy mt-3">Guaranteed First-Year Housing</h3>
+              <h3 class="font-display font-extrabold text-lg text-dcu-navy mt-3">On-Campus Student Residences</h3>
               <p class="text-xs sm:text-sm text-slate-600 mt-2 leading-relaxed">
-                Dedicated international room allocations in Larkfield, Hampstead, College Park, and Hazelwood residences—just a 3-minute walk from the McNulty Building.
+                Modern on-campus apartments in Larkfield, Hampstead, College Park, and Hazelwood residences—just a 3-minute walk from the McNulty Building.
               </p>
             </div>
           </div>
@@ -2266,7 +2282,6 @@
       const viewport = document.getElementById('app-viewport');
       viewport.innerHTML = ROUTES[pageKey]();
 
-      // Highlight active navigation link with Deep Midnight Navy + Coral indicator
       document.querySelectorAll('.nav-link').forEach(link => {
         if (link.dataset.nav === pageKey) {
           link.className = 'nav-link px-3.5 py-2 rounded-xl transition-all bg-dcu-navy text-white shadow-sm ring-2 ring-dcu-coral';
@@ -2342,12 +2357,12 @@
             <span class="text-xs sm:text-sm font-display font-extrabold text-dcu-navy">${prog.placement}</span>
           </div>
           <div class="p-3.5 rounded-xl bg-dcu-skySoft border border-dcu-skyBorder">
-            <span class="font-mono text-[10px] uppercase text-slate-500 font-bold block">Non-EU Tuition</span>
-            <span class="text-xs sm:text-sm font-mono font-extrabold text-dcu-navy">${prog.tuitionNonEU}</span>
-          </div>
-          <div class="p-3.5 rounded-xl bg-dcu-skySoft border border-dcu-skyBorder">
             <span class="font-mono text-[10px] uppercase text-slate-500 font-bold block">EU / EEA Tuition</span>
             <span class="text-xs sm:text-sm font-mono font-extrabold text-dcu-navy">${prog.tuitionEU}</span>
+          </div>
+          <div class="p-3.5 rounded-xl bg-dcu-skySoft border border-dcu-skyBorder">
+            <span class="font-mono text-[10px] uppercase text-slate-500 font-bold block">Non-EU Tuition</span>
+            <span class="text-xs sm:text-sm font-mono font-extrabold text-dcu-navy">${prog.tuitionNonEU}</span>
           </div>
         </div>
 
@@ -2435,7 +2450,7 @@
       const refNum = Math.floor(1000 + Math.random() * 9000);
       document.getElementById('confirm-ref-code').textContent = `DCU-COMP-2027-${refNum}`;
       document.getElementById('confirm-summary-text').textContent =
-        `Thank you, ${name}. Our Regional Admissions Advisor for ${country} will send your ${programme} (${intake}) brochure and Zoom call invite within 24 hours.`;
+        `Thank you, ${name}. Our Admissions Team (${country}) will send your ${programme} (${intake}) brochure and consultation invite within 24 hours.`;
 
       document.getElementById('advisor-form').classList.add('hidden');
       document.getElementById('advisor-confirmation').classList.remove('hidden');
